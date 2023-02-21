@@ -4,8 +4,6 @@
 // Creo una variabile "totPrice" che dia solo la somma tra "raceKm * priceForKm"
 // Creo una variabile "juniorDiscount" che calcoli lo sconto per minori di 18 anni; del 20%
 // Creo una variabile "seniorDiscount" che calcoli lo sconto per chi ha 65 anni o piu; del 40%
-// Creo una variabile "sum" che definisca il prezzo reale per il biglietto del treno
-// Chiedo all' utente quanti km vuol percorrere e la sua età da prompt
  // SE userAge è minore di 18
   // ALLORA sum = (priceForKm / 100 * 20)
    // Stampo il costo scontato del 20%
