@@ -1,5 +1,6 @@
-const raceKm = parseInt(prompt('Inserisci il numero di km che intendi percorrere'));
-const userAge = parseInt(prompt('Inserisci la tua età'));
+'use strict'
+const raceKm = Number(prompt('Inserisci il numero di km che intendi percorrere'));
+const userAge = Number(prompt('Inserisci la tua età'));
 const priceForKm = 0.21;
 let totPrice = priceForKm * raceKm;
 const juniorDiscount = (totPrice / 100) * 20;
